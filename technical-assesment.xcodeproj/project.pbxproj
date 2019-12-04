@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F22094475EA73E815F1AFCD8 /* Pods_technical_assesment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545D65584DB54DEE1EA3B3BE /* Pods_technical_assesment.framework */; };
 		F34FDC9B23965499001F2FBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FDC9A23965498001F2FBC /* AppDelegate.swift */; };
 		F34FDC9D23965499001F2FBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FDC9C23965499001F2FBC /* SceneDelegate.swift */; };
-		F34FDC9F23965499001F2FBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FDC9E23965499001F2FBC /* ViewController.swift */; };
+		F34FDC9F23965499001F2FBC /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FDC9E23965499001F2FBC /* MainViewController.swift */; };
 		F34FDCA223965499001F2FBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34FDCA023965499001F2FBC /* Main.storyboard */; };
 		F34FDCA42396549C001F2FBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F34FDCA32396549C001F2FBC /* Assets.xcassets */; };
 		F34FDCA72396549C001F2FBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34FDCA52396549C001F2FBC /* LaunchScreen.storyboard */; };
+		F34FDCAF23965E8D001F2FBC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FDCAE23965E8D001F2FBC /* Extensions.swift */; };
+		F34FDCB123965F6B001F2FBC /* InboundTransfersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FDCB023965F6B001F2FBC /* InboundTransfersViewController.swift */; };
+		F34FDCB323966364001F2FBC /* WalletManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FDCB223966364001F2FBC /* WalletManager.swift */; };
+		F34FDCB523969977001F2FBC /* transferManagerABI.json in Resources */ = {isa = PBXBuildFile; fileRef = F34FDCB423969977001F2FBC /* transferManagerABI.json */; };
+		F34FDCB72396AAFE001F2FBC /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FDCB62396AAFE001F2FBC /* Models.swift */; };
+		F34FDCBB2396AC4E001F2FBC /* Providers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34FDCBA2396AC4E001F2FBC /* Providers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		166CB8B3302F07D5B0BDA84F /* Pods-technical-assesment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-technical-assesment.release.xcconfig"; path = "Target Support Files/Pods-technical-assesment/Pods-technical-assesment.release.xcconfig"; sourceTree = "<group>"; };
+		3A296651A824941F2E75A94B /* Pods-technical-assesment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-technical-assesment.debug.xcconfig"; path = "Target Support Files/Pods-technical-assesment/Pods-technical-assesment.debug.xcconfig"; sourceTree = "<group>"; };
+		545D65584DB54DEE1EA3B3BE /* Pods_technical_assesment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_technical_assesment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34FDC9723965498001F2FBC /* technical-assesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "technical-assesment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F34FDC9A23965498001F2FBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F34FDC9C23965499001F2FBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F34FDC9E23965499001F2FBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F34FDC9E23965499001F2FBC /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F34FDCA123965499001F2FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F34FDCA32396549C001F2FBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F34FDCA62396549C001F2FBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F34FDCA82396549C001F2FBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F34FDCAE23965E8D001F2FBC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F34FDCB023965F6B001F2FBC /* InboundTransfersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboundTransfersViewController.swift; sourceTree = "<group>"; };
+		F34FDCB223966364001F2FBC /* WalletManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletManager.swift; sourceTree = "<group>"; };
+		F34FDCB423969977001F2FBC /* transferManagerABI.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = transferManagerABI.json; sourceTree = "<group>"; };
+		F34FDCB62396AAFE001F2FBC /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F34FDCBA2396AC4E001F2FBC /* Providers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Providers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22094475EA73E815F1AFCD8 /* Pods_technical_assesment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72C5EDC5F8F9389B3020D253 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				545D65584DB54DEE1EA3B3BE /* Pods_technical_assesment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0549BEBD9F4D6E239FFE41B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A296651A824941F2E75A94B /* Pods-technical-assesment.debug.xcconfig */,
+				166CB8B3302F07D5B0BDA84F /* Pods-technical-assesment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F34FDC8E23965498001F2FBC = {
 			isa = PBXGroup;
 			children = (
 				F34FDC9923965498001F2FBC /* technical-assesment */,
 				F34FDC9823965498001F2FBC /* Products */,
+				C0549BEBD9F4D6E239FFE41B /* Pods */,
+				72C5EDC5F8F9389B3020D253 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,11 +94,17 @@
 			children = (
 				F34FDC9A23965498001F2FBC /* AppDelegate.swift */,
 				F34FDC9C23965499001F2FBC /* SceneDelegate.swift */,
-				F34FDC9E23965499001F2FBC /* ViewController.swift */,
-				F34FDCA023965499001F2FBC /* Main.storyboard */,
+				F34FDC9E23965499001F2FBC /* MainViewController.swift */,
+				F34FDCB023965F6B001F2FBC /* InboundTransfersViewController.swift */,
+				F34FDCB223966364001F2FBC /* WalletManager.swift */,
+				F34FDCAE23965E8D001F2FBC /* Extensions.swift */,
+				F34FDCB62396AAFE001F2FBC /* Models.swift */,
+				F34FDCBA2396AC4E001F2FBC /* Providers.swift */,
 				F34FDCA32396549C001F2FBC /* Assets.xcassets */,
 				F34FDCA52396549C001F2FBC /* LaunchScreen.storyboard */,
+				F34FDCA023965499001F2FBC /* Main.storyboard */,
 				F34FDCA82396549C001F2FBC /* Info.plist */,
+				F34FDCB423969977001F2FBC /* transferManagerABI.json */,
 			);
 			path = "technical-assesment";
 			sourceTree = "<group>";
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F34FDCAB2396549C001F2FBC /* Build configuration list for PBXNativeTarget "technical-assesment" */;
 			buildPhases = (
+				994D01C63CAB10C8CE6F03BA /* [CP] Check Pods Manifest.lock */,
 				F34FDC9323965498001F2FBC /* Sources */,
 				F34FDC9423965498001F2FBC /* Frameworks */,
 				F34FDC9523965498001F2FBC /* Resources */,
+				004F1335E8C858DF9D3751EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,19 +172,67 @@
 				F34FDCA72396549C001F2FBC /* LaunchScreen.storyboard in Resources */,
 				F34FDCA42396549C001F2FBC /* Assets.xcassets in Resources */,
 				F34FDCA223965499001F2FBC /* Main.storyboard in Resources */,
+				F34FDCB523969977001F2FBC /* transferManagerABI.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		004F1335E8C858DF9D3751EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-technical-assesment/Pods-technical-assesment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-technical-assesment/Pods-technical-assesment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-technical-assesment/Pods-technical-assesment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		994D01C63CAB10C8CE6F03BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-technical-assesment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F34FDC9323965498001F2FBC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F34FDC9F23965499001F2FBC /* ViewController.swift in Sources */,
+				F34FDCAF23965E8D001F2FBC /* Extensions.swift in Sources */,
+				F34FDC9F23965499001F2FBC /* MainViewController.swift in Sources */,
 				F34FDC9B23965499001F2FBC /* AppDelegate.swift in Sources */,
 				F34FDC9D23965499001F2FBC /* SceneDelegate.swift in Sources */,
+				F34FDCB323966364001F2FBC /* WalletManager.swift in Sources */,
+				F34FDCB123965F6B001F2FBC /* InboundTransfersViewController.swift in Sources */,
+				F34FDCB72396AAFE001F2FBC /* Models.swift in Sources */,
+				F34FDCBB2396AC4E001F2FBC /* Providers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +374,7 @@
 		};
 		F34FDCAC2396549C001F2FBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A296651A824941F2E75A94B /* Pods-technical-assesment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +393,7 @@
 		};
 		F34FDCAD2396549C001F2FBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166CB8B3302F07D5B0BDA84F /* Pods-technical-assesment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

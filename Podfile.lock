@@ -1,0 +1,24 @@
+PODS:
+  - BigInt (3.1.0):
+    - SipHash (~> 1.2)
+  - SipHash (1.2.2)
+  - web3.swift (0.1.0):
+    - BigInt (~> 3.1.0)
+
+DEPENDENCIES:
+  - web3.swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BigInt
+    - SipHash
+    - web3.swift
+
+SPEC CHECKSUMS:
+  BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
+  SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  web3.swift: d208adcfc6e5c9ea45c82a044e27a43a86d7e4ef
+
+PODFILE CHECKSUM: 949571ca99e0312e605c29f9f105e88c4adf5181
+
+COCOAPODS: 1.7.5

@@ -1,10 +1,6 @@
-//
-//  AppDelegate.swift
-//  technical-assesment
-//
-//  Created by Dimitris Tsiflitzis on 3/12/19.
-//  Copyright © 2019 Semi Serious Labs P.C. All rights reserved.
-//
+/*
+ * AppDelegate.swift
+ */
 
 import UIKit
 
